@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve"
+    "start": "serve",
+    "build": "esbuild index.js --bundle --watch --outfile='dist/build.js'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.14.54",
     "serve": "^14.0.1"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.5.1"
   }
 }
