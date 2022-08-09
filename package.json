@@ -6,13 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve",
+    "tsc": "tsc index.ts",
     "build": "esbuild index.js --bundle --watch --outfile='dist/build.js'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.14.54",
-    "serve": "^14.0.1"
+    "serve": "^14.0.1",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "canvas-confetti": "^1.5.1"
